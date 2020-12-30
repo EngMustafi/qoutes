@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+header{
+    background-color: #333;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li:not(:last-child){
+    margin-right: 20px;
+}
+nav a{
+    padding: 10px;
+}
+nav a:hover, .current:hover{
+    background-color: salmon;
+}
+.log h1{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+section{
+    padding: 10rem 0;
+    background-color: #fff;
+}
+
+body .cover1 {
+    background:url("images/hirshabele.jpg") right bottom no-repeat;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	background-position: top; 
+	
+}
+
+.Com_Name{
+	color:#fffff1;
+	text-align: center;
+	padding: 120px;
+	font-size: 35pt;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cover3 {
+	background:url("images/puntland2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	color: #fff;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+	height: 50px;
+	opacity: 0.8;
+
+}
+::placeholder{
+    padding: 10px;
+	background: #fffff1
+    
+}
+
+.submit{
+    border: 1;
+	border-radius: 10px;
+
+}
+.Sub{
+	padding-top: 100px;
+}
+form ul {
+	list-style-type: none;
+}
+form li {
+	display: inline;
+	padding-right: 50px;
+}
+.STC{
+	font-weight: bold;
+}
+.description{
+	padding: 50px;
+}
