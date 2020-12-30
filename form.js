@@ -6,7 +6,7 @@ let check = document.getElementById('checking')
 user = 'cabaas'
 pass = 12345
 
-button.addEventListener('click',function(e){
+button.addEventListener('submit',function(e){
    if (username.value == user && password.value == pass){
         console.log('Pass')
 
